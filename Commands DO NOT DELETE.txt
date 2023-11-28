@@ -1,0 +1,19 @@
+No 2010 or EOP
+---------------------------------------------
+$x = "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2013","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2016","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2019","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Security & Compliance"
+
+No 2010
+-------------------------------------------------
+$x = "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2013","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2016","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2019","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Security & Compliance", "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online Protection"
+
+No EOP
+-----------------------------------------
+$x = "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2010","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2013","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2016","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2019","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Security & Compliance"
+
+All
+-------------------------------------------------
+$x = "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2010","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2013","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2016","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Server 2019","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online","C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Security & Compliance", "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Exchange Online Protection"
+
+
+
+Merge-MarkdownHelp -Path $x -OutputPath "C:\Crap\_platyPS\_Blind Cmdlet Sweep\2023-04-17\Merged" -ExplicitApplicableIfAll
